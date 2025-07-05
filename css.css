@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.outer {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+section {
+    width: 100%;
+    height: 350px;
+}
+
+article.left {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+article.right {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    /* background-color: rgb(46, 100, 108); */
+    height: 50px;
+    text-align: center;
+}
